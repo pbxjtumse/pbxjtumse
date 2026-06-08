@@ -1,16 +1,17 @@
-## Hi there 👋
+# 👋 Hi, I'm pbxjtumse
 
-<!--
-**pbxjtumse/pbxjtumse** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🧰 Tech Stack
 
-Here are some ideas to get you started:
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=java,spring,maven,redis,kafka,mysql,postgres,mongodb,elasticsearch,docker,kubernetes,nginx,git,github,gitlab,linux,prometheus,grafana&theme=light&perline=9" />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Focus
+
+- Java Backend
+- Spring Boot / Spring Cloud
+- Redis / MySQL / PostgreSQL / MongoDB
+- Kafka / RocketMQ / Canal / Flink
+- Docker / Kubernetes / Longhorn
+- Elasticsearch / Kibana
+- Dify / Agent / Knowledge Base
