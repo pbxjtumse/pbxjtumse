@@ -131,37 +131,6 @@ component/
 
 ---
 
-### 🤖 AI Knowledge Base & Agent
-
-面向业务平台建设的智能知识问答系统。
-
-主要能力：
-
-* 文档知识检索与完整答案生成
-* 关键词检索与向量检索结合
-* 图片与文字多模态知识检索
-* Rerank 与回答置信度判断
-* Agent 工作流和问题分类
-* 回答来源追踪与异常状态处理
-
-技术方向：
-
-```text
-Dify
-  ↓
-Hybrid Retrieval
-  ↓
-Vector Database / Elasticsearch
-  ↓
-Rerank
-  ↓
-Large Language Model
-  ↓
-Structured Answer
-```
-
----
-
 ### ☁️ Cloud Native Lab
 
 基于 Kubernetes 搭建的个人云原生实验环境，用于中间件部署、架构验证和技术学习。
