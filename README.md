@@ -1,4 +1,4 @@
-````markdown
+
 <div align="center">
 
 # 👋 Hi, I'm Pang Bo
@@ -50,7 +50,6 @@ Cloud Native
 ├── Kafka / Canal
 ├── Elasticsearch
 └── Observability
-````
 
 ---
 
@@ -118,7 +117,7 @@ component/
 ├── message-component
 ├── observability-parent
 └── transaction-component
-```
+
 
 主要能力：
 
