@@ -65,9 +65,6 @@ Cloud Native
 * 可观测性、服务治理和配置能力集成
 * 分布式事务、幂等控制与一致性保障
 * Spring Boot Starter 自动装配与开箱即用
-
-> 当前以 Java 版本为核心，后续计划补充 Go 与 Python 实现，用于比较不同语言生态下的组件设计与工程实践。
-
 ---
 
 ### ☁️ Cloud Native Lab
