@@ -52,57 +52,6 @@ Cloud Native
 └── Observability
 ```
 ---
-
-## 🛠️ Tech Stack
-
-### Backend
-
-<p>
-  <img src="https://skillicons.dev/icons?i=java,spring,maven,gradle,python,fastapi" />
-</p>
-
-* Java / Spring Boot / Spring Cloud
-* MyBatis / JPA / Maven / Gradle
-* Python / FastAPI
-* DDD / COLA / Clean Architecture
-
-### Middleware & Data
-
-<p>
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,redis,mongodb,kafka,elasticsearch" />
-</p>
-
-* MySQL / PostgreSQL / OceanBase
-* Redis / MongoDB
-* Kafka / RocketMQ / Canal
-* Elasticsearch / Qdrant
-* Flink
-
-### AI & LLM
-
-* RAG Knowledge Base
-* Dify
-* LangChain / LangGraph
-* DeepSeek / Qwen
-* Vector Search / BM25 / Rerank
-* Multimodal Retrieval
-* Agent Workflow
-
-### Cloud Native & DevOps
-
-<p>
-  <img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,nginx,git,github,gitlab" />
-</p>
-
-* Kubernetes / Docker
-* Longhorn / MinIO
-* Harbor / GitLab / Argo CD
-* Prometheus / Grafana
-* ELK / ECK
-* Nginx / Ingress
-
----
-
 ## 📦 Featured Projects
 ### 🧩 [Enterprise Component Platform](https://github.com/pbxjtumse/cola-web-standard)
 
