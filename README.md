@@ -104,13 +104,6 @@ Cloud Native
 ---
 
 ## 📦 Featured Projects
-
-### 🧩 Enterprise Component Platform
-
-基于面相领域设计的企业级 Java 基础组件工程，目标是将常见的基础能力统一封装，减少业务项目中的重复建设。
-````markdown
-## 📦 Featured Projects
-
 ### 🧩 [Enterprise Component Platform](https://github.com/pbxjtumse/cola-web-standard)
 
 基于领域驱动设计与 COLA 分层架构构建的企业级 Java 基础组件工程，目标是统一封装常用基础能力，减少业务系统中的重复建设，并逐步沉淀可复用、可扩展、可治理的工程能力。
@@ -143,14 +136,6 @@ component/
 
 ➡️ **[查看完整仓库](https://github.com/pbxjtumse/cola-web-standard)**
 ➡️ **[查看组件源码](https://github.com/pbxjtumse/cola-web-standard/tree/master/component)**
-
-```
-```
-
-
-```text
-
-```
 ---
 
 ### ☁️ Cloud Native Lab
