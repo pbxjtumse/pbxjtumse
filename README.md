@@ -8,9 +8,6 @@
 专注于 Java 后端架构、基础组件建设、AI 知识库与智能体应用落地。
 
 [![GitHub](https://img.shields.io/badge/GitHub-pbxjtumse-181717?logo=github)](https://github.com/pbxjtumse)
-![Java](https://img.shields.io/badge/Java-Backend-orange?logo=openjdk)
-![AI](https://img.shields.io/badge/AI-Application-blueviolet)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Cloud%20Native-326CE5?logo=kubernetes)
 
 </div>
 
@@ -52,15 +49,13 @@ Cloud Native
 └── Observability
 ```
 ---
-## 📦 Featured Projects
-### 🧩 [Enterprise Component Platform](https://github.com/pbxjtumse/cola-web-standard)
+## 📦 Featured Projects 
+### 🧩 [Enterprise Component Platform (Java)](https://github.com/pbxjtumse/cola-web-standard)
 
 基于领域驱动设计与 COLA 分层架构构建的企业级 Java 基础组件工程，目标是统一封装常用基础能力，减少业务系统中的重复建设，并逐步沉淀可复用、可扩展、可治理的工程能力。
 
 [![Repository](https://img.shields.io/badge/GitHub-cola--web--standard-181717?logo=github)](https://github.com/pbxjtumse/cola-web-standard)
 [![Components](https://img.shields.io/badge/Source-component-blue?logo=github)](https://github.com/pbxjtumse/cola-web-standard/tree/master/component)
-![Java](https://img.shields.io/badge/Java-17+-orange?logo=openjdk)
-![Architecture](https://img.shields.io/badge/Architecture-DDD%20%2F%20COLA-blueviolet)
 
 **Core Capabilities**
 
