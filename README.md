@@ -5,8 +5,6 @@
 
 ### Java Backend Engineer · AI Application Builder · Cloud Native Enthusiast
 
-专注于 Java 后端架构、基础组件建设、AI 知识库与智能体应用落地。
-
 [![GitHub](https://img.shields.io/badge/GitHub-pbxjtumse-181717?logo=github)](https://github.com/pbxjtumse)
 
 </div>
