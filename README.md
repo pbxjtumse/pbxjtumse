@@ -148,37 +148,6 @@ component/
 
 ---
 
-## 📚 Learning Roadmap
-
-* [x] Java 企业级基础组件建设
-* [x] Dify 知识库与多模态检索实践
-* [x] Kubernetes 中间件部署
-* [x] Flink Operator 与 MinIO 状态存储
-* [ ] 使用 Python 重构知识库应用
-* [ ] 深入学习 LangChain 与 LangGraph
-* [ ] 建设完整的 Java AI Application Framework
-* [ ] 完善可观测性、评测和 Agent 治理体系
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=pbxjtumse&show_icons=true&hide_border=true&count_private=true" />
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pbxjtumse&layout=compact&hide_border=true" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=pbxjtumse&hide_border=true" />
-
-</div>
-
----
-
 ## 📫 Contact
 
 * GitHub: [@pbxjtumse](https://github.com/pbxjtumse)
