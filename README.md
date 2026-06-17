@@ -62,16 +62,6 @@ Cloud Native
 ![Java](https://img.shields.io/badge/Java-17+-orange?logo=openjdk)
 ![Architecture](https://img.shields.io/badge/Architecture-DDD%20%2F%20COLA-blueviolet)
 
-```text
-component/
-├── cache-component            # 多级缓存与统一缓存能力
-├── concurrency-component      # 线程池治理与异步任务编排
-├── governance-component       # 服务治理能力
-├── message-component          # 消息发送、消费与失败处理
-├── observability-parent       # 日志、指标与链路观测
-└── transaction-component      # 事务一致性与幂等能力
-````
-
 **Core Capabilities**
 
 * 多级缓存、缓存穿透保护与热点数据治理
@@ -83,8 +73,6 @@ component/
 
 > 当前以 Java 版本为核心，后续计划补充 Go 与 Python 实现，用于比较不同语言生态下的组件设计与工程实践。
 
-➡️ **[查看完整仓库](https://github.com/pbxjtumse/cola-web-standard)**
-➡️ **[查看组件源码](https://github.com/pbxjtumse/cola-web-standard/tree/master/component)**
 ---
 
 ### ☁️ Cloud Native Lab
