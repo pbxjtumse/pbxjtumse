@@ -19,7 +19,7 @@
 ## 👨‍💻 About Me
 
 - 💻 Java 后端开发工程师，关注高并发、分布式系统与工程化建设
-- 🧱 正在建设一套可复用的 Java 企业级基础组件体系
+- 🧱 正在建设一套可复用的 面相领域设计的 COLA - Java 企业级基础组件体系,后续会增加基于 Go 以及 Python 版本
 - 🤖 探索大模型、RAG、知识库、Agent 在业务系统中的实际落地
 - ☁️ 持续实践 Kubernetes、Flink、Kafka、Canal、Elasticsearch 等技术
 - 🐍 正在学习 Python、LangChain、LangGraph 和 FastAPI
@@ -107,26 +107,10 @@ Cloud Native
 
 ### 🧩 Enterprise Component Platform
 
-企业级 Java 基础组件工程，目标是将常见的基础能力统一封装，减少业务项目中的重复建设。
+基于面相领域设计的企业级 Java 基础组件工程，目标是将常见的基础能力统一封装，减少业务项目中的重复建设。
 
 ```text
-component/
-├── cache-component
-├── concurrency-component
-├── governance-component
-├── message-component
-├── observability-parent
-└── transaction-component
 
-
-主要能力：
-
-* 多级缓存与统一缓存客户端
-* Caffeine、Redis 和组合缓存
-* 线程池治理与异步任务编排
-* 消息发送、消费、重试和失败处理
-* 可观测性与服务治理集成
-* 事务一致性与幂等能力
 ```
 ---
 
