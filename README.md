@@ -14,12 +14,9 @@
 ## 👨‍💻 About Me
 
 - 💻 Java 后端开发工程师，关注高并发、分布式系统与工程化建设
-- 🧱 正在建设一套可复用的 面相领域设计的 COLA - Java 企业级基础组件体系,后续会增加基于 Go 以及 Python 版本
+- 🧱 面相领域设计的 COLA - Java 企业级基础组件体系【进行中】后续会增加基于 Go 以及 Python 版本
 - 🤖 探索大模型、RAG、知识库、Agent 在业务系统中的实际落地
-- ☁️ 持续实践 Kubernetes、Flink、Kafka、Canal、Elasticsearch 等技术
-- 🐍 正在学习 Python、LangChain、LangGraph 和 FastAPI
-- 🎯 希望把传统后端工程能力与 AI 应用开发真正结合起来
-
+- ☁️ 持续实践 Kubernetes、Flink、Kafka、Canal、Elasticsearch、LangChain、LangGraph 相关
 ---
 
 ## 🚀 Current Focus
