@@ -50,7 +50,7 @@ Cloud Native
 ├── Kafka / Canal
 ├── Elasticsearch
 └── Observability
-
+```
 ---
 
 ## 🛠️ Tech Stack
