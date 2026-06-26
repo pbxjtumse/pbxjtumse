@@ -14,7 +14,10 @@
 ## 👨‍💻 About Me
 
 - 💻 Java 后端开发工程师，关注高并发、分布式系统与工程化建设
-- 🧱 面相领域设计的 COLA - Java 企业级基础组件体系【进行中】后续会增加基于 Go 以及 Python 版本
+- 🧱 面相领域设计的体系代码的实践
+  -  Java 企业级基础组件体系【持续更新 目前进行中】
+  -  Python 企业级基础组件体系 【暂未开始】
+  -  Go 企业级基础组件体系 【暂未开始】
 - 🤖 探索大模型、RAG、知识库、Agent 在业务系统中的实际落地
 - ☁️ 持续实践 Kubernetes、Flink、Kafka、Canal、Elasticsearch、LangChain、LangGraph 相关
 ---
