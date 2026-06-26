@@ -84,6 +84,7 @@ Cloud Native
 
 * GitHub: [@pbxjtumse](https://github.com/pbxjtumse)
 * Email: `pbxjtumse@outlook.com`
+* wechat pbdwxin
 
 ---
 
@@ -91,6 +92,6 @@ Cloud Native
 
 ### Build reliable backend systems and practical AI applications.
 
-持续学习，持续实践，持续输出。
+原谅我这一生不羁放荡爱自由 也会怕有一台会跌倒 背弃了理想谁人都可以 哪怕有一天只你共我
 
 </div>
