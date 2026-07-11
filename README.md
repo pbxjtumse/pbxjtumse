@@ -9,7 +9,12 @@
 
 <br>
 
-**English · 简体中文 · 日本語 · 한국어**
+<p align="center">
+  <a href="#english-profile">English</a> ·
+  <a href="#chinese-profile">简体中文</a> ·
+  <a href="#japanese-profile">日本語</a> ·
+  <a href="#korean-profile">한국어</a>
+</p>
 
 </div>
 
