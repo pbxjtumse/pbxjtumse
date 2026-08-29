@@ -132,14 +132,14 @@ The goal is not to reproduce the same code three times, but to understand how th
 
 ## 📦 Featured Projects
 
-### 🧩 [Enterprise Component Platform for Java](https://github.com/pbxjtumse/cola-web-standard)
+### 🧩 [Enterprise Component Platform for Java](https://github.com/pbxjtumse/iron-components-java)
 
 An enterprise-grade Java infrastructure component platform built around reusable technical capabilities, Domain-Driven Design principles, and layered architecture.
 
 The project aims to standardize common infrastructure capabilities across business systems, reduce duplicated development, and gradually establish a reusable, extensible, observable, governable, and production-oriented engineering foundation.
 
-[![Repository](https://img.shields.io/badge/GitHub-cola--web--standard-181717?logo=github\&logoColor=white)](https://github.com/pbxjtumse/cola-web-standard)
-[![Components](https://img.shields.io/badge/Source-components-0969DA?logo=github\&logoColor=white)](https://github.com/pbxjtumse/cola-web-standard/tree/master/component)
+[![Repository](https://img.shields.io/badge/GitHub-cola--web--standard-181717?logo=github\&logoColor=white)](https://github.com/pbxjtumse/iron-components-java)
+[![Components](https://img.shields.io/badge/Source-components-0969DA?logo=github\&logoColor=white)](https://github.com/pbxjtumse/iron-components-java/tree/master/component)
 
 #### Core Capabilities
 
@@ -389,14 +389,14 @@ Node.js Event Loop / Promise
 
 ## 📦 代表项目
 
-### 🧩 [企业级基础组件平台（Java）](https://github.com/pbxjtumse/cola-web-standard)
+### 🧩 [企业级基础组件平台（Java）](https://github.com/pbxjtumse/iron-components-java)
 
 围绕可复用技术能力、领域驱动设计思想以及分层架构逐步建设的企业级 Java 基础组件工程。
 
 项目目标是统一封装业务系统中常见的基础技术能力，减少重复建设，并逐步沉淀一套可复用、可扩展、可观测、可治理以及面向生产环境的工程体系。
 
-[![Repository](https://img.shields.io/badge/GitHub-cola--web--standard-181717?logo=github\&logoColor=white)](https://github.com/pbxjtumse/cola-web-standard)
-[![Components](https://img.shields.io/badge/Source-components-0969DA?logo=github\&logoColor=white)](https://github.com/pbxjtumse/cola-web-standard/tree/master/component)
+[![Repository](https://img.shields.io/badge/GitHub-cola--web--standard-181717?logo=github\&logoColor=white)](https://github.com/pbxjtumse/iron-components-java)
+[![Components](https://img.shields.io/badge/Source-components-0969DA?logo=github\&logoColor=white)](https://github.com/pbxjtumse/iron-components-java/tree/master/component)
 
 #### 核心能力
 
