@@ -383,7 +383,7 @@ Python asyncio / async-await
 Node.js Event Loop / Promise
 ```
 
-以及不同运行时下事务、消息、幂等、上下文传播、可观测性和高并发处理方式的差异。
+以及不同运行时下事务、消息、幂等、上下文传播、可观测性和高并发处理方式的
 
 ---
 
