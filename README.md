@@ -2,10 +2,10 @@
 
 # 👋 Hi, I'm Pang Bo
 
-### Backend Engineer · AI Application Builder · Cloud-Native Enthusiast
+### Backend Engineer · Distributed Systems · AI Engineering
 
-[![GitHub](https://img.shields.io/badge/GitHub-pbxjtumse-181717?logo=github\&logoColor=white)](https://github.com/pbxjtumse)
-[![Email](https://img.shields.io/badge/Email-pbxjtumse%40outlook.com-0078D4?logo=microsoftoutlook\&logoColor=white)](mailto:pbxjtumse@outlook.com)
+[![GitHub](https://img.shields.io/badge/GitHub-pbxjtumse-181717?logo=github&logoColor=white)](https://github.com/pbxjtumse)
+[![Email](https://img.shields.io/badge/Email-pbxjtumse%40outlook.com-0078D4?logo=microsoftoutlook&logoColor=white)](mailto:pbxjtumse@outlook.com)
 
 <br>
 
@@ -14,12 +14,6 @@
 </a>
 <a href="#chinese-profile">
   <img src="https://img.shields.io/badge/简体中文-0969DA?style=for-the-badge">
-</a>
-<a href="./translations/README_JA.md">
-  <img src="https://img.shields.io/badge/日本語-555555?style=for-the-badge">
-</a>
-<a href="./translations/README_KO.md">
-  <img src="https://img.shields.io/badge/한국어-555555?style=for-the-badge">
 </a>
 
 </div>
@@ -32,203 +26,214 @@
 
 ## 👨‍💻 About Me
 
-* 💻 Backend engineer focused on high-concurrency systems, distributed architecture, and production-grade enterprise engineering
-* ☕ Primarily experienced in Java and the Spring ecosystem, with continuous practice in Domain-Driven Design, COLA layered architecture, and reusable infrastructure component design
-* 📦 Building reusable engineering foundations across multiple technology stacks:
+I am a backend engineer focused on distributed systems, high-concurrency processing, reusable infrastructure components, and production-oriented AI engineering.
 
-  * **Java enterprise component ecosystem**: actively under development
-  * **Python backend & AI engineering foundation**: planned and evolving
-  * **TypeScript / NestJS enterprise backend foundation**: planned
-* 🤖 Exploring production-oriented applications of LLMs, RAG, AI agents, workflow orchestration, evaluation, and AI observability
-* 🧠 Interested in LangChain, LangGraph, agent runtimes, tool calling, memory systems, MCP, and AI-native application architecture
-* ☁️ Continuously working with Kubernetes, Kafka, Flink, Elasticsearch, Redis, PostgreSQL, CI/CD, GitOps, and observability systems
+My primary engineering stack is **Java / Spring Boot**. I am currently building a reusable Java infrastructure component ecosystem and using it to study how retry, idempotency, transactions, messaging, distributed coordination, storage routing, governance, and observability should work together in real business systems.
+
+I am also gradually extending this experience into **Python-based AI engineering**, especially LLM applications, RAG, Agent workflows, tool calling, MCP, durable execution, evaluation, and AI observability.
 
 ---
 
 ## 🚀 Current Focus
 
 ```text
-Backend Engineering
-├── Java / Spring Boot
-├── Python / FastAPI
-├── TypeScript / NestJS
-├── Distributed Systems
-├── High-Concurrency Processing
-├── Domain-Driven Design
-└── Reusable Infrastructure Components
+Java Infrastructure Engineering
+├── Foundation & Common Runtime
+├── Concurrency & Async Execution
+├── Retry & Reliable Task
+├── Transaction & Idempotency
+├── Distributed Lock & Fencing Token
+├── Messaging
+├── Cache
+├── Governance
+├── Observability
+├── Relational Access
+└── Storage Routing
 
 AI Engineering
-├── LLM Application Engineering
+├── LLM Applications
 ├── RAG & Knowledge Systems
 ├── Agent Workflows
 ├── LangChain / LangGraph
-├── Tool Calling & MCP
-├── Memory & State Management
-├── Evaluation & Guardrails
+├── Tool Calling / MCP
+├── Memory & State
+├── Evaluation / Guardrails
 └── AI Observability
 
 Cloud Native
-├── Kubernetes
-├── Docker
-├── Kafka / RocketMQ
-├── Flink Kubernetes Operator
+├── Kubernetes / Docker
+├── Kafka / Pulsar / RocketMQ
+├── Redis / MySQL / PostgreSQL
 ├── Elasticsearch
-├── Redis / PostgreSQL
+├── Flink Kubernetes Operator
 ├── GitOps / Argo CD
-└── Observability
+└── Prometheus / Grafana / OpenTelemetry
 ```
 
 ---
 
-## 🧱 Engineering Roadmap
+## 🧩 Featured Project — Iron Components Java
 
-I am gradually building the same core engineering capabilities across different runtimes, focusing on architectural principles rather than simply translating framework APIs.
+### [iron-components-java](https://github.com/pbxjtumse/iron-components-java)
+
+A reusable Java / Spring Boot technical component ecosystem for distributed business systems.
+
+The project does **not** try to reimplement Redis, Kafka, Pulsar, RocketMQ, OpenTelemetry, Resilience4j, ShardingSphere, or Spring Transaction. Instead, it builds a stable engineering layer above mature infrastructure:
 
 ```text
-Java Engineering Foundation
-├── Foundation
-├── Retry
-├── Cache
-├── Messaging
-├── Idempotency
-├── Transaction
-├── Distributed Lock
-└── Observability
-
-Python Engineering Foundation
-├── Foundation
-├── Async Runtime
-├── Retry
-├── Messaging
-├── Idempotency
-├── Transaction
-├── Observability
-└── AI Runtime
-    ├── Model
-    ├── Prompt
-    ├── Tool
-    ├── Workflow
-    ├── Agent
-    ├── Memory
-    ├── RAG
-    └── Evaluation
-
-TypeScript / NestJS Engineering Foundation
-├── Foundation
-├── Web & API
-├── Validation
-├── Persistence
-├── Transaction
-├── Messaging
-├── Idempotency
-├── Cache
-├── Security
-└── Observability
+Business Code
+    ↓
+Stable API / Starter
+    ↓
+Core Orchestration
+    ↓
+SPI / Integration
+    ↓
+Provider
+    ↓
+Mature Infrastructure
 ```
 
-The goal is not to reproduce the same code three times, but to understand how the same engineering problems are solved under different programming models such as Java threads, Python asyncio, and the Node.js event loop.
+The goal is to reduce duplicated infrastructure code and make technical capabilities composable, observable, replaceable, and easier to evolve.
+
+[![Repository](https://img.shields.io/badge/GitHub-iron--components--java-181717?logo=github&logoColor=white)](https://github.com/pbxjtumse/iron-components-java)
+[![Components](https://img.shields.io/badge/Source-components-0969DA?logo=github&logoColor=white)](https://github.com/pbxjtumse/iron-components-java/tree/master/component)
+
+### Current Component Map
+
+```text
+Iron Components Java
+├── Foundation
+├── Concurrency
+├── Retry
+├── Reliable Task
+├── Transaction
+├── Idempotent
+├── Distributed Lock
+├── Message
+├── Cache
+├── Governance
+├── Observability
+├── Relational Access
+└── Storage Routing
+```
+
+### What the project currently explores
+
+* **Foundation** — time, IDs, serialization, context propagation, reflection, resources, reusable low-level abstractions
+* **Concurrency** — thread-pool governance, async tasks, timeout, cancellation, fallback, lifecycle and metrics
+* **Retry** — explicit, bounded, observable short-cycle retries with classification and backoff
+* **Reliable Task** — persistent tasks, CAS claiming, lease, recovery scanning and cross-process execution recovery
+* **Transaction** — unified local transaction execution abstraction on top of Spring transactions
+* **Idempotency** — owner/version state machine, replay, recovery takeover, Redis/JDBC persistence and route-aware storage
+* **Distributed Lock** — Redis / Redisson providers, watchdog, owner token and fencing-token protection
+* **Message** — unified Kafka / Pulsar / RocketMQ message model, send/consume lifecycle, reliability and ACK/redelivery semantics
+* **Cache** — Caffeine + Redis multi-level cache, cache policies, load protection, invalidation events and observability
+* **Governance** — timeout, retry, rate limiting, circuit breaking, bulkhead isolation and Resilience4j integration
+* **Observability** — tracing abstraction, MDC propagation, OpenTelemetry adapter and Spring integration
+* **Relational Access** — reusable JDBC/relational execution boundary, connection handling, exception translation and transaction reuse
+* **Storage Routing** — direct datasource routing plus ShardingSphere-JDBC / Proxy integration for sharding-oriented access
+
+### Engineering Principles
+
+```text
+Stable API
++ Explicit execution semantics
++ Clear module boundaries
++ Replaceable providers
++ Composition over duplication
++ Transaction-aware integration
++ Observable runtime behavior
++ Code-first documentation
+```
 
 ---
 
-## 📦 Featured Projects
+## 🔗 Capability Composition
 
-### 🧩 [Enterprise Component Platform for Java](https://github.com/pbxjtumse/iron-components-java)
+The project is designed around combinations rather than isolated utilities.
 
-An enterprise-grade Java infrastructure component platform built around reusable technical capabilities, Domain-Driven Design principles, and layered architecture.
+```text
+Reliable Consume
+Message
+  + Idempotent
+  + Transaction
+  + Retry
+  + Observability
 
-The project aims to standardize common infrastructure capabilities across business systems, reduce duplicated development, and gradually establish a reusable, extensible, observable, governable, and production-oriented engineering foundation.
+Reliable Send
+Message
+  + Retry
+  + Reliable Task / Outbox
+  + Transaction
+  + Observability
 
-[![Repository](https://img.shields.io/badge/GitHub-cola--web--standard-181717?logo=github\&logoColor=white)](https://github.com/pbxjtumse/iron-components-java)
-[![Components](https://img.shields.io/badge/Source-components-0969DA?logo=github\&logoColor=white)](https://github.com/pbxjtumse/iron-components-java/tree/master/component)
+Consistent Data Access
+Storage Routing
+  + Relational Access
+  + Transaction
+  + Idempotent
 
-#### Core Capabilities
+Distributed Coordination
+Distributed Lock
+  + Fencing Token
+  + Relational Access
 
-* Multi-level caching, penetration protection, and hot-key governance
-* Unified thread-pool management and asynchronous task orchestration
-* Timeout control, cancellation, rejection handling, fallback, and retry
-* Distributed locks, lease renewal, ownership validation, and fencing-token design
-* Message production, consumption, acknowledgment, retry, dead-letter, and ordering control
-* Distributed transaction abstraction and transaction template design
-* Idempotency control and consistency guarantees
-* Observability, configuration management, and service governance
-* Spring Boot Starter auto-configuration and out-of-the-box integration
-* Production-oriented unit testing, concurrency testing, and performance validation
+Async Governance
+Concurrency
+  + Governance
+  + Observability
+```
 
 ---
 
-### 🐍 Python Engineering & AI Foundation
+## 🤖 AI Engineering Direction
 
-A planned Python-based engineering foundation for backend and AI-native applications.
+My next engineering direction is to reuse the same reliability mindset for AI-native systems.
 
-The project will focus on applying production-grade software engineering principles to Python rather than treating Python only as a scripting or model-integration language.
+Rather than treating AI applications as prompt wrappers, I am interested in production concerns such as:
 
-#### Planned Capabilities
-
-* Python project foundation and dependency management
-* Async programming based on `asyncio`
-* Configuration, validation, serialization, and unified error handling
-* Retry, idempotency, transaction, messaging, and observability abstractions
-* FastAPI-based business application templates
 * Model provider abstraction
-* Prompt management
-* Tool execution framework
-* LangGraph-based workflow runtime
+* Prompt and tool lifecycle
+* LangGraph-based workflow orchestration
 * Agent runtime and state management
-* Short-term and long-term memory
+* Short-term / long-term memory
 * RAG and retrieval pipelines
-* Evaluation, guardrails, tracing, token usage, latency, and cost governance
+* Durable execution and recovery
+* Human-in-the-loop workflows
+* Evaluation and guardrails
+* Trace, token, latency and cost observability
+* Integration between AI runtimes and traditional backend systems
+
+Python will be the primary language for this part of the stack, while Java remains an important integration and enterprise backend runtime.
 
 ---
 
-### 🟦 TypeScript / NestJS Engineering Foundation
+## ☁️ Cloud-Native Lab
 
-A planned enterprise backend engineering foundation based on TypeScript and NestJS.
+I also maintain a personal environment for architecture validation, middleware integration, troubleshooting and performance experiments.
 
-The goal is to explore how traditional enterprise engineering capabilities can be implemented under the Node.js runtime and event-driven programming model.
+Main technologies include:
 
-#### Planned Capabilities
-
-* NestJS modular architecture and dependency injection
-* Controller / Provider / Module lifecycle management
-* Request validation and exception handling
-* Authentication, authorization, Guard, Pipe, and Interceptor design
-* Persistence and transaction abstraction
-* Retry and idempotency
-* Cache and messaging integration
-* Async context propagation with Node.js runtime capabilities
-* OpenTelemetry-based tracing and metrics
-* Business application templates
-* Integration with Python-based AI services and agent runtimes
-
----
-
-### ☁️ Personal Cloud-Native Lab
-
-A personal cloud-native environment built on Kubernetes for middleware deployment, architecture validation, troubleshooting, performance testing, and technical experimentation.
-
-#### Technologies and Platforms
-
-* Highly available Kubernetes clusters
-* Redis, MySQL, PostgreSQL, and MongoDB
-* Kafka, RocketMQ, and Pulsar
-* Elasticsearch, Kibana, and ECK
+* Kubernetes / Docker
+* Kafka / Pulsar / RocketMQ
+* Redis / MySQL / PostgreSQL / MongoDB
+* Elasticsearch / Kibana / ECK
 * Flink Kubernetes Operator
-* Longhorn distributed storage
-* MinIO object storage
-* Harbor private container registry
-* GitLab
+* Longhorn / MinIO
+* Harbor / GitLab
 * Argo CD
 * Prometheus / Grafana
-* Cloud-native observability and troubleshooting
+* OpenTelemetry
 
 ---
 
-## 🎯 Engineering Interests
-
-I am particularly interested in the intersection of traditional distributed systems and modern AI application engineering.
+## 🧠 Engineering Interests
 
 ```text
 Distributed Systems
+        +
+Reliable Execution
         +
 Enterprise Engineering
         +
@@ -239,19 +244,9 @@ AI Agent Runtime
 Production AI
 ```
 
-Instead of building only LLM demos or prompt wrappers, I am interested in how AI systems can become reliable production systems with:
+I am especially interested in systems where correctness and reliability depend on more than a successful API call:
 
-* State management
-* Durable execution
-* Idempotency
-* Retry and recovery
-* Messaging and asynchronous execution
-* Observability
-* Evaluation
-* Guardrails
-* Cost governance
-* Distributed coordination
-* Cloud-native deployment
+**idempotency, transaction boundaries, retries, durable recovery, distributed coordination, messaging semantics, state management, observability and operational governance.**
 
 ---
 
@@ -275,219 +270,212 @@ Instead of building only LLM demos or prompt wrappers, I am interested in how AI
 
 ## 👨‍💻 关于我
 
-* 💻 后端开发工程师，关注高并发、分布式系统以及面向生产环境的企业级工程能力建设
-* ☕ 目前主要技术积累集中于 Java / Spring 生态，持续实践领域驱动设计、COLA 分层架构以及可复用基础组件设计
-* 📦 正在逐步构建跨技术栈的工程能力体系：
+后端开发工程师，主要关注 **分布式系统、高并发处理、可复用技术组件以及面向生产环境的 AI 工程化**。
 
-  * **Java 企业级基础组件体系**：持续开发中
-  * **Python 后端与 AI 工程底座**：规划并逐步建设
-  * **TypeScript / NestJS 企业级后端工程底座**：规划中
-* 🤖 持续探索 LLM、RAG、Agent、工作流编排、评测体系以及 AI 可观测性在真实业务系统中的工程化落地
-* 🧠 关注 LangChain、LangGraph、Agent Runtime、Tool Calling、Memory、MCP 以及 AI Native Application Architecture
-* ☁️ 持续实践 Kubernetes、Kafka、Flink、Elasticsearch、Redis、PostgreSQL、CI/CD、GitOps 和可观测性体系
+当前主要技术积累集中在 **Java / Spring Boot**。正在持续建设一套可复用的 Java 技术组件体系，并以此研究 Retry、幂等、事务、消息、分布式协调、存储路由、治理和可观测性如何在真实业务系统中组合工作。
+
+同时也在逐步把这些传统后端工程经验迁移到 **Python AI 工程体系**，重点关注 LLM、RAG、Agent Workflow、Tool Calling、MCP、Durable Execution、Evaluation 以及 AI Observability。
 
 ---
 
 ## 🚀 当前关注方向
 
 ```text
-后端工程
-├── Java / Spring Boot
-├── Python / FastAPI
-├── TypeScript / NestJS
-├── 分布式系统
-├── 高并发任务处理
-├── DDD / 分层架构
-└── 可复用基础组件
+Java 技术组件体系
+├── Foundation / 基础运行时
+├── Concurrency / 异步执行
+├── Retry / Reliable Task
+├── Transaction / Idempotent
+├── Distributed Lock / Fencing Token
+├── Message
+├── Cache
+├── Governance
+├── Observability
+├── Relational Access
+└── Storage Routing
 
 AI 工程
-├── LLM 应用工程
-├── RAG 与知识系统
-├── Agent 工作流
+├── LLM Application
+├── RAG / Knowledge System
+├── Agent Workflow
 ├── LangChain / LangGraph
 ├── Tool Calling / MCP
-├── Memory 与状态管理
+├── Memory / State
 ├── Evaluation / Guardrail
-└── AI 可观测性
+└── AI Observability
 
 云原生
-├── Kubernetes
-├── Docker
-├── Kafka / RocketMQ
-├── Flink Kubernetes Operator
+├── Kubernetes / Docker
+├── Kafka / Pulsar / RocketMQ
+├── Redis / MySQL / PostgreSQL
 ├── Elasticsearch
-├── Redis / PostgreSQL
+├── Flink Kubernetes Operator
 ├── GitOps / Argo CD
-└── 可观测性体系
+└── Prometheus / Grafana / OpenTelemetry
 ```
 
 ---
 
-## 🧱 技术建设路线
+## 🧩 代表项目 — Iron Components Java
 
-目前正在尝试使用不同编程语言重新思考相同的工程问题，重点不是简单翻译代码，而是理解不同运行时和编程模型下的架构实现方式。
+### [iron-components-java](https://github.com/pbxjtumse/iron-components-java)
+
+一套面向 Java / Spring Boot 分布式业务系统的可复用技术组件体系。
+
+项目不会重新实现 Redis、Kafka、Pulsar、RocketMQ、OpenTelemetry、Resilience4j、ShardingSphere 或 Spring Transaction，而是在这些成熟基础设施之上建立一层更稳定、更贴近业务系统的工程抽象：
 
 ```text
-Java 技术底座
+业务代码
+    ↓
+稳定 API / Starter
+    ↓
+Core 编排
+    ↓
+SPI / Integration
+    ↓
+Provider
+    ↓
+成熟基础设施
+```
+
+目标是减少重复建设，让技术能力具备更清晰的边界，并能够组合、替换、观测和持续演进。
+
+[![Repository](https://img.shields.io/badge/GitHub-iron--components--java-181717?logo=github&logoColor=white)](https://github.com/pbxjtumse/iron-components-java)
+[![Components](https://img.shields.io/badge/Source-components-0969DA?logo=github&logoColor=white)](https://github.com/pbxjtumse/iron-components-java/tree/master/component)
+
+### 当前组件全景
+
+```text
+Iron Components Java
 ├── Foundation
+├── Concurrency
 ├── Retry
-├── Cache
-├── Messaging
-├── Idempotency
+├── Reliable Task
 ├── Transaction
+├── Idempotent
 ├── Distributed Lock
-└── Observability
-
-Python 技术底座
-├── Foundation
-├── Async Runtime
-├── Retry
-├── Messaging
-├── Idempotency
-├── Transaction
-├── Observability
-└── AI Runtime
-    ├── Model
-    ├── Prompt
-    ├── Tool
-    ├── Workflow
-    ├── Agent
-    ├── Memory
-    ├── RAG
-    └── Evaluation
-
-TypeScript / NestJS 技术底座
-├── Foundation
-├── Web / API
-├── Validation
-├── Persistence
-├── Transaction
-├── Messaging
-├── Idempotency
+├── Message
 ├── Cache
-├── Security
-└── Observability
+├── Governance
+├── Observability
+├── Relational Access
+└── Storage Routing
 ```
 
-目标不是把同一套 Java 代码分别翻译成 Python 和 TypeScript，而是深入理解：
+### 当前重点能力
+
+* **Foundation**：时间、ID、序列化、上下文传播、反射、资源等底层公共能力
+* **Concurrency**：线程池治理、异步任务、超时、取消、fallback、生命周期和指标
+* **Retry**：显式、有限、可观测的短周期重试
+* **Reliable Task**：持久化任务、CAS 抢占、Lease、扫描兜底以及跨进程恢复
+* **Transaction**：基于 Spring Transaction 的统一本地事务执行抽象
+* **Idempotent**：owner/version 状态机、结果回放、Recovery、Redis/JDBC 存储和路由感知
+* **Distributed Lock**：Redis / Redisson、Watchdog、Owner Token、Fencing Token
+* **Message**：Kafka / Pulsar / RocketMQ 统一消息模型、发送消费生命周期以及 ACK / Redelivery 语义
+* **Cache**：Caffeine + Redis 多级缓存、缓存策略、加载保护、失效事件和可观测性
+* **Governance**：超时、重试、限流、熔断、隔离和 Resilience4j 集成
+* **Observability**：Trace 抽象、MDC 上下文、OpenTelemetry Adapter 和 Spring 集成
+* **Relational Access**：统一关系型访问边界、连接管理、异常转换以及事务连接复用
+* **Storage Routing**：Direct DataSource 路由，以及 ShardingSphere-JDBC / Proxy 集成
+
+### 设计原则
 
 ```text
-Java Thread / CompletableFuture
-
-        VS
-
-Python asyncio / async-await
-
-        VS
-
-Node.js Event Loop / Promise
+稳定 API
++ 显式执行语义
++ 清晰模块边界
++ Provider 可替换
++ 能力组合而不是重复实现
++ 事务感知
++ 可观测
++ 代码优先文档
 ```
 
-以及不同运行时下事务、消息、幂等、上下文传播、可观测性和高并发处理方式的
+---
+
+## 🔗 技术能力组合
+
+真正有价值的不是某一个孤立组件，而是组件之间形成完整执行链路。
+
+```text
+可靠消费
+Message
+  + Idempotent
+  + Transaction
+  + Retry
+  + Observability
+
+可靠发送
+Message
+  + Retry
+  + Reliable Task / Outbox
+  + Transaction
+  + Observability
+
+一致性数据访问
+Storage Routing
+  + Relational Access
+  + Transaction
+  + Idempotent
+
+分布式协调
+Distributed Lock
+  + Fencing Token
+  + Relational Access
+
+异步治理
+Concurrency
+  + Governance
+  + Observability
+```
 
 ---
 
-## 📦 代表项目
+## 🤖 AI 工程方向
 
-### 🧩 [企业级基础组件平台（Java）](https://github.com/pbxjtumse/iron-components-java)
+下一阶段希望把同样的可靠性思路带入 AI Native Application。
 
-围绕可复用技术能力、领域驱动设计思想以及分层架构逐步建设的企业级 Java 基础组件工程。
+相比只完成 Prompt Demo 或简单模型 API 调用，我更关注：
 
-项目目标是统一封装业务系统中常见的基础技术能力，减少重复建设，并逐步沉淀一套可复用、可扩展、可观测、可治理以及面向生产环境的工程体系。
-
-[![Repository](https://img.shields.io/badge/GitHub-cola--web--standard-181717?logo=github\&logoColor=white)](https://github.com/pbxjtumse/iron-components-java)
-[![Components](https://img.shields.io/badge/Source-components-0969DA?logo=github\&logoColor=white)](https://github.com/pbxjtumse/iron-components-java/tree/master/component)
-
-#### 核心能力
-
-* 多级缓存、缓存穿透保护与热点数据治理
-* 统一线程池管理与异步任务编排
-* 超时控制、任务取消、拒绝处理、回退与重试
-* 分布式锁、租约续期、持有者校验与 Fencing Token
-* 消息发送、消费、确认、重试、死信以及顺序控制
-* 分布式事务抽象与事务模板设计
-* 幂等控制与数据一致性保障
-* 可观测性、配置管理和服务治理
-* Spring Boot Starter 自动装配与开箱即用
-* 面向生产环境的单元测试、并发测试以及性能验证
-
----
-
-### 🐍 Python 工程与 AI 技术底座
-
-计划建设一套面向后端系统以及 AI Native Application 的 Python 工程底座。
-
-该项目不会仅仅把 Python 作为脚本或者模型调用语言，而是尝试将传统企业级软件工程经验迁移到 Python 与 AI 系统中。
-
-#### 规划能力
-
-* Python 工程规范以及依赖管理
-* 基于 `asyncio` 的异步编程体系
-* 配置、校验、序列化以及统一异常体系
-* Retry、Idempotency、Transaction、Messaging 和 Observability
-* 基于 FastAPI 的业务应用模板
 * Model Provider 抽象
-* Prompt 管理
-* Tool 执行框架
-* 基于 LangGraph 的 Workflow Runtime
+* Prompt / Tool 生命周期
+* 基于 LangGraph 的 Workflow 编排
 * Agent Runtime 与状态管理
-* 短期 Memory 与长期 Memory
+* 短期 / 长期 Memory
 * RAG 与 Retrieval Pipeline
+* Durable Execution / Recovery
+* Human-in-the-loop
 * Evaluation / Guardrail
-* Trace、Token、Latency 以及 Cost Governance
+* Trace / Token / Latency / Cost Observability
+* AI Runtime 与传统业务系统的集成
+
+这一部分会优先使用 Python；Java 继续承担企业级后端以及与 AI Runtime 的集成职责。
 
 ---
 
-### 🟦 TypeScript / NestJS 工程底座
+## ☁️ 云原生实验环境
 
-计划基于 TypeScript 与 NestJS 建设一套企业级后端工程体系。
+用于中间件部署、架构验证、故障排查以及性能实验：
 
-主要用于研究传统企业级工程能力在 Node.js Event Loop 和异步编程模型下的实现方式。
-
-#### 规划能力
-
-* NestJS Module 与依赖注入体系
-* Controller / Provider / Module 生命周期
-* 参数校验与统一异常处理
-* Guard / Pipe / Interceptor
-* Authentication / Authorization
-* 数据持久化以及事务抽象
-* Retry 与 Idempotency
-* Cache 与 Messaging
-* Node.js 异步上下文传播
-* OpenTelemetry Trace / Metrics
-* 企业级业务应用模板
-* 与 Python AI Runtime / Agent Service 的集成
-
----
-
-### ☁️ 个人云原生实验室
-
-基于 Kubernetes 搭建的个人云原生实验环境，主要用于中间件部署、架构验证、故障排查、性能测试以及技术实验。
-
-#### 已实践内容
-
-* Kubernetes 高可用集群
-* Redis、MySQL、PostgreSQL 和 MongoDB
-* Kafka、RocketMQ 和 Pulsar
-* Elasticsearch、Kibana 和 ECK
+* Kubernetes / Docker
+* Kafka / Pulsar / RocketMQ
+* Redis / MySQL / PostgreSQL / MongoDB
+* Elasticsearch / Kibana / ECK
 * Flink Kubernetes Operator
-* Longhorn 分布式存储
-* MinIO 对象存储
-* Harbor 私有镜像仓库
-* GitLab
+* Longhorn / MinIO
+* Harbor / GitLab
 * Argo CD
 * Prometheus / Grafana
-* 云原生可观测与故障排查
+* OpenTelemetry
 
 ---
 
-## 🎯 长期关注
-
-长期关注传统分布式系统与现代 AI 应用工程之间的结合。
+## 🧠 长期关注
 
 ```text
 Distributed Systems
+        +
+Reliable Execution
         +
 Enterprise Engineering
         +
@@ -498,19 +486,9 @@ AI Agent Runtime
 Production AI
 ```
 
-相比只完成简单的 LLM API 调用或者 Prompt Demo，更关注 AI 系统真正进入生产环境之后需要解决的问题：
+尤其关注那些不能仅靠“一次 API 调用成功”解决的问题：
 
-* 状态管理
-* Durable Execution
-* 幂等
-* Retry / Recovery
-* 消息与异步执行
-* 可观测性
-* Evaluation
-* Guardrail
-* Cost Governance
-* 分布式协调
-* 云原生部署
+**幂等、事务边界、重试、持久化恢复、分布式协调、消息语义、状态管理、可观测性以及运行时治理。**
 
 ---
 
@@ -530,8 +508,8 @@ Production AI
 
 <div align="center">
 
-### Build reliable systems · Explore AI-native engineering
+### Build reliable systems · Engineer production AI
 
-构建可靠系统 · 探索 AI 原生工程
+构建可靠系统 · 打造生产级 AI 工程
 
 </div>
